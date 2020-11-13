@@ -22,10 +22,10 @@ background-color:#464e54;
   margin-left: 50px;  
 }
 .info2{
-float: left;
-font-family: 'Arial Rounded MT Bold', sans-serif;
-margin-left: 50px;
-margin-top: -20px;
+    float: left;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    margin-left: 50px;
+    margin-top: -20px;
 }
 
 .Photo{
@@ -110,3 +110,16 @@ margin-top: -20px;
     margin-left: 200px;
     font-family: 'Open Sans';
 }
+
+@media (max-width: 480px){ 
+.Photo{
+    float: left;
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 480px){ 
+    .Section-Droite{
+        margin-left: 0px;
+      }
+    }
