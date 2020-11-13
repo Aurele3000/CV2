@@ -1,0 +1,112 @@
+.page{
+    width: 780px;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    
+}
+.info-Photo {
+height: 300px;
+color: #eaeaea;
+background-color:#464e54;
+}
+
+.infoTitre{
+    float: left;  
+  }
+
+.info1{
+  /*float: left;*/
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  text-transform: uppercase;
+  margin-left: 50px;  
+}
+.info2{
+float: left;
+font-family: 'Arial Rounded MT Bold', sans-serif;
+margin-left: 50px;
+margin-top: -20px;
+}
+
+.Photo{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.Section1{
+    margin-bottom: 70px;
+}
+
+.Compétences{
+    /*float: left;*/
+    margin-left: 50px;
+    font-family: 'Arial Rounded MT Bold';
+    text-transform: uppercase;
+    color: #464e54;
+}
+
+.ListeCompétences{
+    margin-left: 50px;
+    font-family: 'Open Sans';
+    color: #464e54;
+}
+.Section2{
+    margin-left: 50px;
+    color: #464e54;
+}
+
+.Titre-Expériences{
+    margin-top: -30px;
+    font-family: 'Arial Rounded MT Bold';
+    text-transform: uppercase;
+}
+
+.Expériences2{
+    font-family: 'Open Sans';   
+}
+
+.Expériences3{
+    font-family: 'Open Sans';    
+}
+
+.Expériences4{
+    font-family: 'Open Sans';   
+}
+
+.Section3{   
+    margin-left: 50px;
+    color: #464e54; 
+}
+
+.Titre-Formation{
+    font-family: 'Arial Rounded MT Bold';
+    text-transform: uppercase;
+}
+
+.Section-Dates{
+    font-family: 'Open Sans'; 
+}
+
+
+.Section4{
+    float: left;
+   /* margin-top: 150px;*/
+    margin-left: 50px;
+    color: #464e54; 
+}
+
+.Titre-Logiciels{
+    font-family: 'Arial Rounded MT Bold';
+    text-transform: uppercase;
+}
+.Section-Gauche{
+    float: left;
+    font-family: 'Open Sans'; 
+}
+
+.Section-Droite{
+    float: left;
+    margin-left: 200px;
+    font-family: 'Open Sans';
+}
