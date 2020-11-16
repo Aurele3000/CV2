@@ -1,7 +1,7 @@
 .page{
     width: 780px;
     margin: auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Arial Rounded MT Bold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     
 }
@@ -17,13 +17,14 @@ background-color:#464e54;
 
 .info1{
   /*float: left;*/
-  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-family: 'Arial Rounded MT Bold';
+  color: #eaeaea;
   text-transform: uppercase;
   margin-left: 50px;  
 }
 .info2{
     float: left;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-family: 'Arial Rounded MT Bold';
     margin-left: 50px;
     margin-top: -20px;
 }
@@ -121,5 +122,19 @@ background-color:#464e54;
 @media (max-width: 480px){ 
     .Section-Droite{
         margin-left: 0px;
-      }
+  }
+}
+
+@media print {
+    header, footer, aside, form, … {
+      display: none;
     }
+  }
+  @page {
+    width: 900px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family:'Arial Rounded MT Bold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+  }
