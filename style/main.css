@@ -3,6 +3,7 @@
     margin: auto;
     font-family:'Arial Rounded MT Bold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
+
     
 }
 .info-Photo {
@@ -33,7 +34,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 .Photo{
     float: right;
     width: 150px;
-    height: 150px;
+    height: 209px;
     box-shadow: 4px 4px 8px rgb(92, 92, 92);
     margin-right: 50px;
     margin-top: 50px;
