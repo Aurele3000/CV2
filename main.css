@@ -7,7 +7,7 @@
     
 }
 .info-Photo {
-height: 300px;
+height: 350px;
 color: #eaeaea;
 background-color:#829199;
 box-shadow: 4px 4px 8px rgb(92, 92, 92);
@@ -19,14 +19,14 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 
 .info1{
   /*float: left;*/
-  font-family: 'Arial Rounded MT Bold';
+  font-family: 'M PLUS Rounded 1c';
   color: #eaeaea;
   /*text-transform: uppercase;*/
   margin-left: 50px;  
 }
 .info2{
     float: left;
-    font-family: 'Arial Rounded MT Bold';
+    font-family: 'M PLUS Rounded 1c';
     margin-left: 50px;
     margin-top: -20px;
 }
@@ -48,7 +48,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 .Compétences{
     /*float: left;*/
     margin-left: 50px;
-    font-family: 'Arial Rounded MT Bold';
+    font-family: 'M PLUS Rounded 1c';
     text-transform: uppercase;
     color: #026E39;
 }
@@ -65,7 +65,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 
 .Titre-Expériences{
     margin-top: -30px;
-    font-family: 'Arial Rounded MT Bold';
+    font-family: 'M PLUS Rounded 1c';
     text-transform: uppercase;
     color: #026E39;
 }
@@ -88,7 +88,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 .Titre-Formation{
-    font-family: 'Arial Rounded MT Bold';
+    font-family: 'M PLUS Rounded 1c';
     text-transform: uppercase;
     color: #026E39;
 }
@@ -106,7 +106,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 .Titre-Logiciels{
-    font-family: 'Arial Rounded MT Bold';
+    font-family: 'M PLUS Rounded 1c';
     text-transform: uppercase;
     color: #026E39;
 }
@@ -144,6 +144,6 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    font-family:'Arial Rounded MT Bold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'M PLUS Rounded 1c', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 11px;
   }
