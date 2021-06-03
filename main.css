@@ -1,19 +1,19 @@
 .page{
-    width: 780px;
+    /*width: 900px;*/
     margin: auto;
     font-family: 'M PLUS Rounded 1c', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
 
     
 }
-.info-Photo {
-height: 350px;
+.info-photo {
+height: 300px;
 color: #eaeaea;
 background-color:#829199;
 box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
-.infoTitre{
+.info-titre{
     float: left;  
   }
 
@@ -31,7 +31,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
     margin-top: -20px;
 }
 
-.Photo{
+.photo{
     float: right;
     width: 150px;
     height: 209px;
@@ -41,11 +41,11 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 
 }
 
-.Section1{
+.section1{
     margin-bottom: 70px;
 }
 
-.Compétences{
+.competences{
     /*float: left;*/
     margin-left: 50px;
     font-family: 'M PLUS Rounded 1c';
@@ -53,76 +53,76 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
     color: #026E39;
 }
 
-.ListeCompétences{
+.liste-competences{
     margin-left: 50px;
     font-family: 'Open Sans';
     color: #464e54;
 }
-.Section2{
+.section2{
     margin-left: 50px;
     color: #464e54;
 }
 
-.Titre-Expériences{
+.titre-experiences{
     margin-top: -30px;
     font-family: 'M PLUS Rounded 1c';
     text-transform: uppercase;
     color: #026E39;
 }
 
-.Expériences2{
+.experiences2{
     font-family: 'Open Sans';   
 }
 
-.Expériences3{
+.experiences3{
     font-family: 'Open Sans';    
 }
 
-.Expériences4{
+.experiences4{
     font-family: 'Open Sans';   
 }
 
-.Section3{   
+.section3{   
     margin-left: 50px;
     color: #464e54; 
 }
 
-.Titre-Formation{
+.titre-formation{
     font-family: 'M PLUS Rounded 1c';
     text-transform: uppercase;
     color: #026E39;
 }
 
-.Section-Dates{
+.section-dates{
     font-family: 'Open Sans'; 
 }
 
 
-.Section4{
+.section4{
     float: left;
    /* margin-top: 150px;*/
     margin-left: 50px;
     color: #464e54; 
 }
 
-.Titre-Logiciels{
+.titre-logiciels{
     font-family: 'M PLUS Rounded 1c';
     text-transform: uppercase;
     color: #026E39;
 }
-.Section-Gauche{
+.section-gauche{
     float: left;
     font-family: 'Open Sans'; 
 }
 
-.Section-Droite{
+.section-droite{
     float: left;
     margin-left: 100px;
     font-family: 'Open Sans';
 }
 
 @media screen and (max-width: 750px){ 
-.Photo{
+.photo{
     display: none;
     /*float: left;
     margin-left: 120px;*/
@@ -130,7 +130,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 @media screen and (max-width: 480px){ 
-    .Section-Droite{
+    .section-droite{
         margin-left: 0;
         text-align: left;
    
