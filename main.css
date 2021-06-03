@@ -117,20 +117,24 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 
 .Section-Droite{
     float: left;
-    margin-left: 200px;
+    margin-left: 100px;
     font-family: 'Open Sans';
 }
 
-@media (max-width: 480px){ 
+@media screen and (max-width: 750px){ 
 .Photo{
-    float: left;
-    margin-left: 120px;
+    display: none;
+    /*float: left;
+    margin-left: 120px;*/
   }
 }
 
-@media (max-width: 480px){ 
+@media screen and (max-width: 480px){ 
     .Section-Droite{
-        margin-left: 0px;
+        margin-left: 0;
+        text-align: left;
+   
+    
   }
 }
 
