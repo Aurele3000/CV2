@@ -1,5 +1,5 @@
 .page{
-    /*width: 900px;*/
+    /*width: 1024px;*/
     margin: auto;
     font-family: 'M PLUS Rounded 1c', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
@@ -122,6 +122,36 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 @media screen and (max-width: 750px){ 
+    .photo{
+      opacity: 80%;
+      }
+    }
+
+    @media screen and (max-width: 740px){ 
+        .photo{
+          opacity: 40%;
+          }
+        }
+
+    @media screen and (max-width: 730px){ 
+        .photo{
+          opacity: 30%;
+          }
+        }
+
+    @media screen and (max-width: 720px){ 
+        .photo{
+          opacity: 20%;
+          }
+        }
+
+ @media screen and (max-width: 710px){ 
+    .photo{
+        opacity: 10%;
+      }
+    }   
+
+@media screen and (max-width: 700px){ 
 .photo{
     display: none;
     /*float: left;
@@ -129,12 +159,23 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
   }
 }
 
-@media screen and (max-width: 480px){ 
+@media screen and (max-width: 460px){ 
+    .info-photo{
+        height: 320px;
+      }
+    }
+
+@media screen and (max-width: 900px){ 
     .section-droite{
         margin-left: 0;
-        text-align: left;
-   
-    
+        float: left;   
+  }
+}
+
+@media screen and (max-width: 900px){ 
+    .section-gauche{
+        margin-right: 100px;
+ 
   }
 }
 
