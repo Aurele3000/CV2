@@ -1,13 +1,13 @@
 .page{
     /*width: 1024px;*/
     margin: auto;
-    font-family: 'M PLUS Rounded 1c', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif, 'Exo', sans-serif, 'Arial', sans-serif;
+    font-size: 16px;
 
     
 }
 .info-photo {
-height: 300px;
+height: 380px;
 color: #eaeaea;
 background-color:#829199;
 box-shadow: 4px 4px 8px rgb(92, 92, 92);
@@ -24,11 +24,19 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
   /*text-transform: uppercase;*/
   margin-left: 50px;  
 }
-.info2{
+.info2 {
     float: left;
+    text-decoration: none;
+    color: #eaeaea;
     font-family: 'M PLUS Rounded 1c';
     margin-left: 50px;
     margin-top: -20px;
+}
+
+.info2 a{
+
+    /*text-decoration: none;*/
+    color: #ffffff;
 }
 
 .photo{
@@ -55,7 +63,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 
 .liste-competences{
     margin-left: 50px;
-    font-family: 'Open Sans';
+    font-family: 'Exo';
     color: #464e54;
 }
 .section2{
@@ -71,15 +79,15 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 .experiences2{
-    font-family: 'Open Sans';   
+    font-family: 'Exo';   
 }
 
 .experiences3{
-    font-family: 'Open Sans';    
+    font-family: 'Exo';    
 }
 
 .experiences4{
-    font-family: 'Open Sans';   
+    font-family: 'Exo';   
 }
 
 .section3{   
@@ -94,7 +102,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 .section-dates{
-    font-family: 'Open Sans'; 
+    font-family: 'Exo'; 
 }
 
 
@@ -112,46 +120,46 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 .section-gauche{
     float: left;
-    font-family: 'Open Sans'; 
+    font-family: 'Exo'; 
 }
 
 .section-droite{
     float: left;
     margin-left: 100px;
-    font-family: 'Open Sans';
+    font-family: 'Exo';
 }
 
-@media screen and (max-width: 750px){ 
+@media screen and (max-width: 780px){ 
     .photo{
       opacity: 80%;
       }
     }
 
-    @media screen and (max-width: 740px){ 
+    @media screen and (max-width: 770px){ 
         .photo{
           opacity: 40%;
           }
         }
 
-    @media screen and (max-width: 730px){ 
+    @media screen and (max-width: 760px){ 
         .photo{
           opacity: 30%;
           }
         }
 
-    @media screen and (max-width: 720px){ 
+    @media screen and (max-width: 750px){ 
         .photo{
           opacity: 20%;
           }
         }
 
- @media screen and (max-width: 710px){ 
+ @media screen and (max-width: 740px){ 
     .photo{
         opacity: 10%;
       }
     }   
 
-@media screen and (max-width: 700px){ 
+@media screen and (max-width: 730px){ 
 .photo{
     display: none;
     /*float: left;
@@ -159,9 +167,9 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
   }
 }
 
-@media screen and (max-width: 460px){ 
+@media screen and (max-width: 511px){ 
     .info-photo{
-        height: 320px;
+        height: 400px;
       }
     }
 
@@ -189,6 +197,6 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    font-family:'M PLUS Rounded 1c', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'M PLUS Rounded 1c', 'Exo', sans-serif, 'Arial', sans-serif;
     font-size: 11px;
   }
