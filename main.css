@@ -1,56 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
 .page{
     /*width: 1024px;*/
     margin: auto;
     font-family: 'M PLUS Rounded 1c', sans-serif, 'Exo', sans-serif, 'Arial', sans-serif;
-    font-size: 16px;
-
-    
+    font-size: 16px;   
 }
+
 .info-photo {
 height: 380px;
 color: #eaeaea;
-background-color:#829199;
-box-shadow: 4px 4px 8px rgb(92, 92, 92);
+/*background-color:#829199;
+box-shadow: 4px 4px 8px rgb(92, 92, 92);*/
+}
+
+.fond2 img{
+    width: 1024px;
+    height: auto;
+    box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 .info-titre{
-    float: left;  
+    position: absolute;
+    top: 20px;
+    color: rgb(235, 253, 255);    
+    text-shadow: rgb(63, 63, 63) 1px 0 10px;   
+ 
   }
 
 .info1{
-  /*float: left;*/
   font-family: 'M PLUS Rounded 1c';
-  color: #eaeaea;
-  /*text-transform: uppercase;*/
   margin-left: 50px;  
 }
+
 .info2 {
     float: left;
     text-decoration: none;
-    color: #eaeaea;
     font-family: 'M PLUS Rounded 1c';
     margin-left: 50px;
     margin-top: -20px;
 }
 
 .info2 a{
-
     /*text-decoration: none;*/
     color: #ffffff;
 }
 
-.photo{
-    float: right;
-    width: 150px;
-    height: 209px;
-    box-shadow: 4px 4px 8px rgb(92, 92, 92);
-    margin-right: 50px;
-    margin-top: 50px;
-
-}
-
 .section1{
     margin-bottom: 70px;
+}
+
+.photo-cv img{
+    position: absolute;
+    /*width: 150px;
+    height: 209px;*/
+    top: 50px;
+    margin-left: 830px;
+    box-shadow: 4px 4px 8px rgb(92, 92, 92);
+
 }
 
 .competences{
