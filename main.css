@@ -1,30 +1,25 @@
 *{
     box-sizing: border-box;
 }
-
-.page{
-    /*width: 1024px;*/
+/*body {
+    width: 1024px;
+    margin: auto;
+}*/
+/*.page{
+    width: 1024px;
     margin: auto;
     font-family: 'M PLUS Rounded 1c', sans-serif, 'Exo', sans-serif, 'Arial', sans-serif;
     font-size: 16px;   
-}
-
-.info-photo {
-height: 380px;
-color: #eaeaea;
-/*background-color:#829199;
-box-shadow: 4px 4px 8px rgb(92, 92, 92);*/
-}
+}*/
 
 .fond2 img{
-    width: 1024px;
-    height: auto;
+
     box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
 
 .info-titre{
     position: absolute;
-    top: 20px;
+    top: 10px;
     color: rgb(235, 253, 255);    
     text-shadow: rgb(63, 63, 63) 1px 0 10px;   
  
@@ -138,69 +133,45 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);*/
     font-family: 'Exo';
 }
 
-@media screen and (max-width: 780px){ 
-    .photo{
-      opacity: 80%;
-      }
+@media screen and (max-width: 1000px){ 
+    .photo-cv {
+        margin-left: -370px;
+        transition-duration: 1s;
     }
-
-    @media screen and (max-width: 770px){ 
-        .photo{
-          opacity: 40%;
-          }
-        }
-
-    @media screen and (max-width: 760px){ 
-        .photo{
-          opacity: 30%;
-          }
-        }
-
-    @media screen and (max-width: 750px){ 
-        .photo{
-          opacity: 20%;
-          }
-        }
-
- @media screen and (max-width: 740px){ 
-    .photo{
-        opacity: 10%;
-      }
-    }   
-
-@media screen and (max-width: 730px){ 
-.photo{
-    display: none;
-    /*float: left;
-    margin-left: 120px;*/
-  }
 }
 
-@media screen and (max-width: 511px){ 
-    .info-photo{
-        height: 400px;
-      }
+@media screen and (max-width: 700px){ 
+    .photo-cv {
+        opacity: 0%;
+        transition-duration: 1s;
     }
+}
+
+@media screen and (max-width: 465px){ 
+    .fond2 img{
+        height: 410px;
+    }
+}
 
 @media screen and (max-width: 900px){ 
     .section-droite{
         margin-left: 0;
         float: left;   
-  }
+    }
 }
 
 @media screen and (max-width: 900px){ 
     .section-gauche{
-        margin-right: 100px;
- 
-  }
+        margin-right: 100px; 
+    }
 }
 
 @media print {
     header, footer, aside, form, … {
       display: none;
     }
-  }
+}
+
   @page {
     width: 900px;
     margin-left: 0px;
@@ -208,4 +179,4 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);*/
     margin-bottom: 0px;
     font-family:'M PLUS Rounded 1c', 'Exo', sans-serif, 'Arial', sans-serif;
     font-size: 11px;
-  }
+}
