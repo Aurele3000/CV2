@@ -21,7 +21,7 @@
     position: absolute;
     top: 10px;
     color: rgb(235, 253, 255);    
-    text-shadow: rgb(63, 63, 63) 1px 0 10px;   
+    text-shadow: rgb(63, 63, 63) 1px 0 5px;   
  
   }
 
@@ -39,8 +39,15 @@
 }
 
 .info2 a{
-    /*text-decoration: none;*/
-    color: #ffffff;
+    text-decoration: none;
+    color: rgb(235, 253, 255);
+    font-weight: 200;
+}
+
+.info2 a:hover{
+   text-decoration-line: underline;
+    color: #95e2fa;
+    font-weight: 200;
 }
 
 .section1{
@@ -108,7 +115,6 @@
 .section-dates{
     font-family: 'Exo'; 
 }
-
 
 .section4{
     float: left;
